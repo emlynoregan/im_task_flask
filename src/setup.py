@@ -9,13 +9,13 @@ except ImportError:
 dist = setup(
     name='im_task_flask',
     version='0.0.1dev1',
-    description='@task for Google App Engine, Python standard environment',
+    description='flask utilities for @task. Use this in your flask app',
     author='Emlyn O\'Regan',
     author_email='emlynoregan@gmail.com',
     url='https://github.com/emlynoregan/im_task',
     license='LICENSE.txt',
-    packages=['im_task'],
-    install_requires=['im_util', 'cloudpickle'],
+    packages=['im_task_flask'],
+    install_requires=['im_task', 'flask', 'werkzeug==0.12.2'],
     long_description=open('README.md').read(),
     classifiers=[
         'Development Status :: 3 - Alpha',
