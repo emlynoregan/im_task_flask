@@ -1,5 +1,7 @@
 # im_task_flask
 This repo adds [Flask](http://flask.pocoo.org/) support for the [im_task](https://github.com/emlynoregan/im_task) library. If you use flask, and you want to use @task, then install this module.
+
+[![Build Status](https://travis-ci.org/emlynoregan/im_task_flask.svg?branch=master)](https://travis-ci.org/emlynoregan/im_task_flask)
  
 ## Install
 
