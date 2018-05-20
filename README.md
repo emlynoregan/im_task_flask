@@ -26,7 +26,7 @@ In app.yaml, set up the following route:
 		  script: main.app
 		  login: admin
 
-Note "login: admin"; this locks down the interface to tasks to your own code; you don't want external callers to kick of tasks with unknown code.
+Note "login: admin"; this locks down the tasks interface to your own code; you don't want external callers to kick off tasks with unknown code.
 
 In main.py, you need to register the tasks handlers with your flask app:
 
